@@ -58,7 +58,7 @@ export default function Profile () {
     const params = useParams();
     const tokenId = params.tokenId;
     if(!dataFetched)
-        getNFTData(tokenId);
+        getNFTData(tokenId); 
 
     return (
         <div className="profileClass" style={{"min-height":"100vh"}}>
