@@ -18,7 +18,7 @@ const location = useLocation();
 const [currAddress, updateAddress] = useState('0x');
 
 
-async function getAddress() {
+async function getAddress() { 
   const ethers = require("ethers");
   const provider = new ethers.providers.Web3Provider(window.ethereum);
   const signer = provider.getSigner();
